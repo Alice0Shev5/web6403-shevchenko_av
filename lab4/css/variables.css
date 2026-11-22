@@ -1,0 +1,36 @@
+/* css/variables.css */
+:root {
+  /* Палитра */
+  --color-bg:            #faf7f2;
+  --color-surface:       #ffffff;
+  --color-text:          #1f1b16;
+  --color-text-muted:    #6b635a;
+  --color-primary:       #c2410c;
+  --color-primary-hover: #9a340a;
+  --color-accent:        #0e7490;
+  --color-border:        #e7e0d6;
+  --color-border-hover:  #f5efe4;
+  --color-error:         #b91c1c;
+  --color-success:       #15803d;
+
+  /* Прозрачности через color-mix (современные браузеры) */
+  --color-primary-soft:  color-mix(in srgb, var(--color-primary) 15%, transparent);
+
+  /* Тени */
+  --shadow-sm: 0 1px 3px color-mix(in srgb, var(--color-text) 10%, transparent);
+  --shadow-md: 0 6px 20px color-mix(in srgb, var(--color-text) 12%, transparent);
+
+  /* Отступы, радиусы */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Типографика */
+  --font-body: "Segoe UI", Roboto, system-ui, sans-serif;
+  --font-heading: "Georgia", "Times New Roman", serif;
+}
