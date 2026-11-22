@@ -58,7 +58,7 @@
 ```bash
 cd lab3
 npm install
-npm test
+npm test```
 
 
 ## Лабораторная работа № 4
