@@ -60,7 +60,6 @@ cd lab3
 npm install
 npm test
 ```
-
 # Лабораторная работа № 4
 
 **Ветка:** `lab4`
